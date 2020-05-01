@@ -8,14 +8,14 @@ import time
   
 # Replace below path with the absolute path 
 # to chromedriver in your computer 
-driver = webdriver.Chrome('/Users/B G Vinayak/Downloads/chromedriver') 
+driver = webdriver.Chrome('your chromedriver path') 
   
 driver.get("https://web.whatsapp.com/") 
 wait = WebDriverWait(driver, 600) 
   
-# Replace 'Friend's Name' with the name of your friend  
+# Replace 'Friend Name' with the name of your friend  
 # or the name of a group  
-target = '"Hale-hudru"'
+target = '"friend name/ group name"'
   
 # Replace the below string with your own message 
 string = "Message sent using Python!!!"
